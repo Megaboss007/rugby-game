@@ -34,7 +34,7 @@ direction_t execute_defender_strategy(
   static direction_t directionaux2= DIR_UP;
   static int cont = 0; 
 
-if(cont == 10) // Aqui pode ser utilizado um número aleatório
+if(cont == 10) // Pode ser utilizado um número aleatório
   spypositionatk  = get_spy_position(attacker_spy);
    if(get_spy_number_uses(attacker_spy) != 0){
    if(spypositionatk.i > defender_position.i)   
