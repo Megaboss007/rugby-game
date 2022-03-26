@@ -32,8 +32,8 @@ direction_t execute_attacker_strategy(
   static bool stop = false;
   
 
-  if (cont == 4) // Aqui pode ser utilizado um número aleatório
-    spypositiondfd = get_spy_position(defender_spy);
+  if (cont == 4) // Pode ser utilizado um número aleatório
+  spypositiondfd = get_spy_position(defender_spy);
 
   
 if(cont>=4 && !stop) {
@@ -65,7 +65,6 @@ if(cont>=4 && !stop) {
     up = false;
     down = false;
   } 
-
 
   previous_position = attacker_position;
   cont++;
